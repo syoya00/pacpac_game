@@ -94,7 +94,7 @@ class Enemy {
     return false;
   }
   void hit() {
-    if (dist(posX, posY, pacpac.posX, pacpac.posY)<dia/2+pacpac.dia/2) {
+    if (myDist(posX, posY, pacpac.posX, pacpac.posY)<dia/2+pacpac.dia/2) {
       pacpac.life = 0;
     }
   }
