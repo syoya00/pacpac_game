@@ -21,7 +21,7 @@ void setup() {
   minim = new Minim(this);
   size(1200, 900);
 
-  sound = minim.loadSnippet("eat.mp3");
+  sound = minim.loadFile("eat.mp3");
 
   stageWidth = width;
   stageHeight = height-100;
