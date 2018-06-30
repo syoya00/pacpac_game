@@ -27,11 +27,11 @@ class Enemy {
     translate(posX, posY);
     noStroke();
     fill(255);
-    arc(-dia/5, 0, dia/4, dia/4, 0, PI+QUARTER_PI, CHORD);
-    arc(dia/5, 0, dia/4, dia/4, -QUARTER_PI, PI, CHORD);
+    //arc(-dia/5, 0, dia/4, dia/4, 0, PI+QUARTER_PI, CHORD);
+    //arc(dia/5, 0, dia/4, dia/4, -QUARTER_PI, PI, CHORD);
     fill(0);
-    arc(-dia/5, 0, dia/6, dia/6, 0, PI+QUARTER_PI, CHORD);
-    arc(dia/5, 0, dia/6, dia/6, -QUARTER_PI, PI, CHORD);
+    //arc(-dia/5, 0, dia/6, dia/6, 0, PI+QUARTER_PI, CHORD);
+    //arc(dia/5, 0, dia/6, dia/6, -QUARTER_PI, PI, CHORD);
     popMatrix();
   }
   void move() {
