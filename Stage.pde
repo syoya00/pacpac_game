@@ -36,7 +36,7 @@ class Stage {
     addDaifuku();
     createWall();
     maxDaifukuNum = daifuku.size()-addWallNum*2;
-    println(maxDaifukuNum*100);
+    //println(maxDaifukuNum*100);
   }
   void display() {
 
@@ -126,7 +126,7 @@ class Stage {
     wallCheck(1, 1);
     if (result!=checkNum) {
       reCheckNum++;
-      println(reCheckNum);
+      //println(reCheckNum);
       resetWall();
       createWall();
     }
