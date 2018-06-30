@@ -29,7 +29,7 @@ void setup() {
   stage = new Stage();
   pacpac = new Pacpac();
   stage.addEnemy();
-  println("ver_0_1_0");
+  //println("ver_0_1_0");
   phase = 0;
   phaseCount = 0;
 
